@@ -69,3 +69,22 @@ def typekey(word):
 
 #manykey
 
+def keys2 (key1,key2):       #two keys
+    with mouse.pressed(key2):
+        mouse.press(key1)
+        mouse.release(key1)
+
+def key3 (key1,key2,key3):
+    with mouse.pressed(key1):
+        with mouse.pressed(key2):
+            mouse.press(key3)
+            mouse.release(key3)
+
+#monitor keyboard
+
+def onpress(key):
+
+def onrelease(key):
+
+
+#keyboard end
